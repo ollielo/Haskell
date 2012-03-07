@@ -1,7 +1,8 @@
 import Data.Array
 import Data.Tuple
 
--- Wall climbing example from Modification of CSC 364S Note, Univ of Toronoto, Fall 2003
+-- Wall climbing example from Modification of CSC 364S Note, Univ of Toronoto, 
+-- Fall 2003
 climbing wall = (fst min_exit, (reverse . solution . snd) min_exit)
   where
     bnds  = bounds wall
